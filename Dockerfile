@@ -48,4 +48,4 @@ EXPOSE 4200
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 
-USER $USER_ID
+USER root
